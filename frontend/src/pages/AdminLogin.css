@@ -1,0 +1,11 @@
+.admin-login-card { max-width: 400px; width: 100%; }
+
+.admin-login-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.admin-login-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}

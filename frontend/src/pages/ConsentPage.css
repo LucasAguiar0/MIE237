@@ -1,0 +1,64 @@
+.consent-card {
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.consent-scroll {
+  max-height: 340px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin: 20px 0;
+  background: var(--bg);
+  scroll-behavior: smooth;
+}
+
+.consent-scroll h3 {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.consent-scroll h3:first-child { margin-top: 0; }
+
+.consent-scroll p {
+  color: #475569;
+  font-size: .92rem;
+  line-height: 1.7;
+}
+
+.consent-form { margin-top: 8px; }
+
+.consent-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  padding: 14px 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color .15s, background .15s;
+  margin-top: 8px;
+}
+
+.consent-checkbox:hover { border-color: var(--primary); background: #eff6ff; }
+
+.consent-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.consent-checkbox span { font-size: .92rem; line-height: 1.5; }
